@@ -1,0 +1,28 @@
+# Archivos de estado de Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Archivos de variables con valores sensibles
+*.tfvars
+!terraform.tfvars.example
+
+# Archivos de crash logs
+crash.log
+crash.*.log
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos de credenciales
+*.pem
+credentials.json
+.aws/ 
