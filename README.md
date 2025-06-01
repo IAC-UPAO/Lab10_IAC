@@ -52,7 +52,7 @@ health_check {
 ```
 
 ### Características del ALB
-- **Tipo**: Application Load Balancer (Layer 7)
+- **Tipo**: Application Load Balancer
 - **Acceso**: Público (no interno)
 - **Distribución**: 70% al servicio principal, 30% al secundario
 - **Health Checks**: Cada 30 segundos en la ruta "/"
